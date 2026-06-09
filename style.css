@@ -1,0 +1,29 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Vazirmatn", sans-serif;
+        background: #f8f6f2;
+        color: #2c3a2b;
+        line-height: 1.6;
+      }
+
+      :root {
+        --sage: #8fa98a;
+        --sage-dark: #6f8970;
+        --sage-light: #c2cfb8;
+        --gold: #d6b86a;
+        --gold-dark: #c4a856;
+        --cream: #fefaf5;
+        --beige: #efe7d9;
+        --white: #ffffff;
+        --gray-muted: #7a8872;
+        --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.03);
+        --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 25px 45px -12px rgba(0, 0, 0, 0.15);
+        --radius-card: 28px;
+        --radius-btn: 40px;
+      }
