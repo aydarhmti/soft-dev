@@ -27,3 +27,22 @@
         --radius-card: 28px;
         --radius-btn: 40px;
       }
+ .features {
+        background: var(--beige);
+        border-radius: 48px;
+        padding: 48px 40px;
+        margin: 48px 0;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        text-align: center;
+      }
+
+      .feature-item i {
+        font-size: 2rem;
+        color: var(--sage);
+        margin-bottom: 12px;
+      }
